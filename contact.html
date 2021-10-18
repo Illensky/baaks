@@ -7,21 +7,43 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
-<h1>Contact me by mail</h1>
-<form action="https://formsubmit.co/alexis.laroche.02240@gmail.com" method="POST">
-    <input type="hidden" name="_next" value="http://www.google.com/">
-    <div>
-        <label for="sender_email">Your E-mail adress</label>
-        <input type="email" name="email" placeholder="Email Address" required id="sender_email">
-    </div>
-    <div>
-        <label for="sender_message">Your message:</label>
-        <textarea name="name" placeholder="Write you message here" required id="sender_message"
-                  rows="15" cols="60"></textarea>
-    </div>
-    <div>
-        <button type="submit">Send</button>
-    </div>
-</form>
+<header>
+    <nav class="wrapper">
+        <ul>
+            <li>
+                <a href="index.html" title="home">Acceuil</a>
+            </li>
+            <li>
+                <a href="games" title="games">Jeux</a>
+                <ul class="sub_menu">
+                    <li><a href="csgo.html" title="counter strike global offensive">CS:GO</a></li>
+                    <li><a href="valorant.html" title="valorant">Valorant</a></li>
+                    <li><a href="overwatch.html" title="overwatch">Overwatch</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="contact.html" title="contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="corpus">
+    <h1 id="form_title">Contact me by mail</h1>
+    <form action="https://formsubmit.co/alexis.laroche.02240@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="http://www.google.com/">
+        <div class="form_div">
+            <label for="sender_email">Your E-mail adress</label>
+            <input type="email" name="email" placeholder="Email Address" required id="sender_email">
+        </div>
+        <div class="form_div">
+            <textarea name="name" placeholder="Write you message here" required id="sender_message"
+                      rows="15" cols="60"></textarea>
+        </div>
+        <div class="form_div">
+            <button type="submit" id="send_button">Send</button>
+        </div>
+    </form>
+</div>
+
 </body>
 </html>

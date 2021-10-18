@@ -4,6 +4,10 @@
 * {
     box-sizing: border-box;
 }
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
 
 body {
     color: grey;
@@ -90,3 +94,47 @@ header li:hover .sub_menu {
 /*============================================================================================
                                       Form style
  ============================================================================================*/
+form {
+    text-align: center;
+}
+
+label {
+    vertical-align: center;
+}
+
+#form_title {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    margin: 20px;
+    background-color: #3f3d3d;
+    border-radius: 4px;
+}
+
+textarea {
+    margin: 20px;
+    background-color: #3f3d3d;
+    border-radius: 4px;
+}
+
+ .form_div {
+     padding: 10px;
+     margin: 20px;
+ }
+
+ #send_button {
+     width: 100px;
+     height: 60px;
+     background-color: rgba(255, 0, 0, 0.72);
+     border: 1px solid rgba(255,0,0,0.35);
+     border-radius: 5px;
+     color: #3f3d3d;
+     box-shadow: 5px 0px 50px 14px rgba(255,0,0,0.35);
+ }
+
+ #send_button:hover {
+     cursor: pointer;
+     transform: scale(125%);
+ }
