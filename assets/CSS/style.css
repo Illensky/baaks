@@ -4,16 +4,21 @@
 * {
     box-sizing: border-box;
 }
+
 h1 {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    color: #a4a0a0;
+    text-shadow: 3px 2px 19px rgba(255,0,0,0.35);
 }
 
 h2 {
+    text-shadow: 3px 2px 19px rgba(255,0,0,0.35);
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    padding: 15px;
 }
 
 body {
@@ -47,10 +52,11 @@ a {
 /*==========================================================================================
                                     Wrapped menu
  =========================================================================================*/
-
 .wrapper {
     margin: 0px auto;
     width: 100%;
+    box-shadow: 5px 5px 50px 5px rgba(255, 0, 0, 0.35);
+    border-radius: 0 0 5px 5px;
 }
 
 header {
